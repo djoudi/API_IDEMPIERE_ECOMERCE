@@ -18,10 +18,10 @@ module.exports = /** @class */ (function () {
             database: this.secure['dbna']
         });
         this.postgres = new Pool({
-            host: '172.30.143.114',
-            user: 'adempiere',
-            password: '4d3mp13r3*',
-            database: 'iDempiereQA',
+            host: 'local.gzserver',
+            user: 'usuario',
+            password: 'clave',
+            database: 'basededatos',
             max: 20,
             idleTimeoutMillis: 30000,
             connectionTimeoutMillis: 2000,
