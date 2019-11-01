@@ -24,7 +24,7 @@ module.exports = /** @class */ (function () {
         // Decodificar json
         var ddt = JSON.stringify(obj);
         fs.writeFileSync('newproduct.json', ddt);
-        console.log("Archivo Salvado.");
+        //console.log("Archivo Salvado.");
     };
     json.prototype.load = function (file, resolve) {
         fs.readFile('src/' + file, function (err, data) {
